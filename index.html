@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Cansativo</title>
+  <link rel="stylesheet" href="css/proje2.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/logo.jpg" alt="Logo da empresa">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Bem-vindo ao nosso site!</h1>
+      <p>Explore nossas funcionalidades e saiba mais.</p>
+    </section>
+
+    <section id="about">
+      <h2>Sobre Nós</h2>
+      <p>Informações sobre o projeto.</p>
+    </section>
+
+    <section id="services">
+      <h2>Serviços</h2>
+      <p>Detalhes dos serviços oferecidos.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contato</h2>
+      <p>Como nos contatar.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mr.Lonely</p>
+    <a href="login.html">Login</a> | <a href="register.html">Cadastro</a>
+  </footer>
+
+  <!-- Botão para abrir o menu de preferências -->
+  <button id="preferences-button" class="preferences-button">Preferências</button>
+
+  <!-- Menu flutuante de preferências -->
+  <div id="preferences-menu" class="preferences-menu">
+    <div class="preferences-content">
+      <h3>Preferências</h3>
+      <label for="theme">Tema:</label>
+      <select id="theme" name="theme">
+        <option value="light">Claro</option>
+        <option value="dark">Escuro</option>
+      </select>
+
+      <label for="language">Idioma:</label>
+      <select id="language" name="language">
+        <option value="pt-br">Português</option>
+        <option value="en">Inglês</option>
+        <option value="es">Espanhol</option>
+      </select>
+
+      <button id="close-preferences" class="close-preferences">Fechar</button>
+    </div>
+  </div>
+
+  <script src="js/proje2.js"></script>
+</body>
+</html>
